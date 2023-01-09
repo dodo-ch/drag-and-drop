@@ -12,7 +12,7 @@ export const DragAndDrop = () => {
     const { isDragging, listItems, handleDragging, handleUpdateList } = useDragAndDrop(data)
 
     return (
-        <div className="w-full grid gap-2 grid-cols-3 grow shrink px-4">
+        <div className="container-main w-full grid gap-2 grid-cols-3 grow shrink px-4">
             {
                 types.map(container => (
                     <ContainerCards
